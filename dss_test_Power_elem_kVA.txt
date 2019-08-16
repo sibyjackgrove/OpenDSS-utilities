@@ -1,0 +1,66 @@
+
+CIRCUIT ELEMENT POWER FLOW
+
+(Power Flow into element from indicated Bus)
+
+Power Delivery Elements
+
+  Bus Phase     kW     +j   kvar         kVA         PF
+
+ELEMENT = "Vsource.SOURCE"
+A        1        -8.5 +j     -6.0       10.5       0.8168
+A        2        -8.5 +j     -6.0       10.4       0.8168
+A        3        -8.4 +j     -6.0       10.4       0.8146
+   TERMINAL TOTAL   -25.5 +j    -18.0       31.2       0.8161
+A        0         0.0 +j      0.0        0.0       1.0000
+A        0         0.0 +j      0.0        0.0       1.0000
+A        0         0.0 +j      0.0        0.0       1.0000
+   TERMINAL TOTAL     0.0 +j      0.0        0.0       1.0000
+
+ELEMENT = "Transformer.TRANSFORMER"
+A        1         8.5 +j      6.0       10.5       0.8168
+A        2         8.5 +j      6.0       10.4       0.8168
+A        3         8.4 +j      6.0       10.4       0.8146
+A        0         0.0 +j      0.0        0.0       1.0000
+   TERMINAL TOTAL    25.5 +j     18.0       31.2       0.8161
+B        1        -8.5 +j     -4.0        9.4       0.9056
+B        2        -8.5 +j     -4.0        9.3       0.9062
+B        3        -8.4 +j     -4.0        9.3       0.9046
+B        0         0.0 +j      0.0        0.0       1.0000
+   TERMINAL TOTAL   -25.4 +j    -11.9       28.1       0.9055
+
+ELEMENT = "Line.LINE1"
+B        1         8.5 +j      4.0        9.4       0.9056
+B        2         8.5 +j      4.0        9.3       0.9062
+B        3         8.4 +j      4.0        9.3       0.9046
+   TERMINAL TOTAL    25.4 +j     11.9       28.1       0.9055
+C        1        -8.3 +j     -3.5        9.1       0.9200
+C        2        -8.3 +j     -3.6        9.1       0.9200
+C        3        -8.3 +j     -3.5        9.1       0.9200
+   TERMINAL TOTAL   -25.0 +j    -10.6       27.2       0.9200
+
+ELEMENT = "Line.LINE2"
+C        1        -0.0 +j     -0.0        0.0       0.0966
+C        2        -0.0 +j     -0.0        0.0       0.0032
+C        3         0.0 +j     -0.0        0.0      -0.0988
+   TERMINAL TOTAL     0.0 +j     -0.0        0.0      -0.0000
+D        1         0.0 +j      0.0        0.0       0.4077
+D        2         0.0 +j      0.0        0.0       0.2376
+D        3        -0.0 +j     -0.0        0.0       0.2990
+   TERMINAL TOTAL     0.0 +j      0.0        0.0       0.4372
+
+= = = = = = = = = = = = = = = = = = =  = = = = = = = = = = =  = =
+
+Power Conversion Elements
+
+  Bus Phase     kW   +j  kvar         kVA         PF
+
+ELEMENT = "Load.CARGA"
+C        1       8.3 +j    3.5        9.1       0.9200
+C        2       8.3 +j    3.6        9.1       0.9200
+C        3       8.3 +j    3.5        9.1       0.9200
+C        0       0.0 +j    0.0        0.0       1.0000
+  TERMINAL TOTAL     25.0 +j     10.6       27.2       0.9200
+
+
+Total Circuit Losses =    0.5 +j    7.4
