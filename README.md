@@ -2,7 +2,7 @@
 
 # Utilities for interacting with OpenDSS
 
-OpenDSS is a distribution system simulation platform. This repository provides a few methods to interact with OpenDSS using Python through the COM interface.
+OpenDSS is a distribution system simulation platform. This repository provides a few methods to interact with OpenDSS using Python through the COM interface. It is fully based on the [YouTube lectures by Paulo Radatz on OpenDSS - COM interface with Python.](https://www.youtube.com/playlist?list=PLhdRxvt3nJ8wtClY-8xGS2wVkj5G2ycHh).
 
 ## Usage
 You can clone the repository from GitHub with following commands:
